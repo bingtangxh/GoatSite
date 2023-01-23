@@ -94,6 +94,11 @@ C:.
 │      brook.mid
 │      rococo.mid
 │      woodland.mid
+│      asunsetglow.MID
+│      carribeancruise.MID
+│      copacabana.MID
+│      flyinghigh.MID
+│      sundaymorning.MID
 │      
 └─synth
         continued2.mid
