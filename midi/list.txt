@@ -1,0 +1,105 @@
+文件夹 PATH 列表
+卷序列号为 CC2D-4711
+C:.
+├─mms
+│      cnta_1_1.mid
+│      cnta_1_2.mid
+│      cnta_1_3.mid
+│      cnta_1_4.mid
+│      cnta_1_5.mid
+│      cnta_1_6.mid
+│      cnta_1_8.mid
+│      cnta_1_9.mid
+│      img_01.mid
+│      img_02.mid
+│      
+├─mwindows
+│      ballade.mid
+│      canyon.mid
+│      daisy.mid
+│      flyby2.mid
+│      island1.mid
+│      mid02.mid
+│      mid03.mid
+│      mid04.mid
+│      minuet.mid
+│      passport.mid
+│      seasons.mid
+│      sunset1.mid
+│      
+├─normal
+│      alpha.mid
+│      dahai.mid
+│      djyqxyy.mid
+│      fireworks.mid
+│      goat.mid
+│      grasswalk.mid
+│      haiao.mid
+│      herijunzailai.mid
+│      huaxin.mid
+│      jiangnan.mid
+│      kawai.mid
+│      leavnpokka.mid
+│      lemon.mid
+│      meve.mid
+│      mxbc.mid
+│      naxienian.mid
+│      nxqlzhk.mid
+│      nzms.mid
+│      qsndwr.mid
+│      qsndwr2.mid
+│      renaicirculation.mid
+│      roof.mid
+│      senbonsakura.mid
+│      springfestivalintro.mid
+│      sundialdreams.mid
+│      tassel.mid
+│      tomandjerry.mid
+│      tzdn.mid
+│      wenbie.mid
+│      whwdzg.mid
+│      xcgs.mid
+│      xss.mid
+│      yldbwdx.mid
+│      ylx.mid
+│      zsyf.mid
+│      
+├─nt
+│      bdfdwjxy.mid
+│      bldbxzq.mid
+│      canyon.mid
+│      clouds.mid
+│      flourish.mid
+│      mozart40.mid
+│      onestop.mid
+│      passport.mid
+│      swzf.mid
+│      tmhxzw.mid
+│      town.mid
+│      yg.mid
+│      zals.mid
+│      
+├─ring
+│      calendar 2.mid
+│      calendar 3.mid
+│      clock 2.mid
+│      clock 3.mid
+│      clock alert 2.mid
+│      clock alert 21.mid
+│      midi24.mid
+│      over the horizon.mid
+│      ringtone09.mid
+│      theme.mid
+│      
+└─synth
+        continued2.mid
+        continued3.mid
+        goat2.mid
+        goat3.mid
+        haiao2.mid
+        haiao3.mid
+        lemon2.mid
+        lemon3.mid
+        meve2.mid
+        meve3.mid
+        
