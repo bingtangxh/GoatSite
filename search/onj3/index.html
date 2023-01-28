@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>onj3搜索</title>
+</head>
+
+<body>
+    <input id="searchContent" type="text">
+    <p>上方输入你要进入的品牌和型号，用斜杠隔开，开头不带</p>
+    <script>function go() { open("http://onj3.andrelouis.com/phonetones/unzipped/" + document.getElementById('searchContent').value) }</script>
+    <button onclick="go()">开始！</button>
+</body>
+
+</html>
