@@ -98,6 +98,7 @@ C:.
 │      carribeancruise.MID
 │      copacabana.MID
 │      flyinghigh.MID
+│      Cool 2.mid
 │      sundaymorning.MID
 │      
 └─synth
