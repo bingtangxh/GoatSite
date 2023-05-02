@@ -62,6 +62,7 @@ C:.
 │      whwdzg.mid
 │      xcgs.mid
 │      xss.mid
+│      yjcy.mid
 │      yldbwdx.mid
 │      ylx.mid
 │      zsyf.mid
@@ -100,7 +101,6 @@ C:.
 │      carribeancruise.MID
 │      copacabana.MID
 │      flyinghigh.MID
-│      Cool 2.mid
 │      sundaymorning.MID
 │      
 └─synth
