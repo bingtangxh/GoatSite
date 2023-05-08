@@ -3,8 +3,80 @@
 H:\OPERAMINI\WP
     High057.jpg
     xitu.jpg
-    img722.jpg
-    img720.jpg
+
     
-没有子文件夹 
+没有子文件夹
+卷 22621 的文件夹 PATH 列表
+卷序列号为 F2C1-CFD2
+C:.
+│  1.txt
+│  
+├─mrfz
+│      mrfz000.jpg
+│      mrfz001.jpg
+│      mrfz002.jpg
+│      mrfz003.jpg
+│      mrfz004.jpg
+│      mrfz005.jpg
+│      mrfz006.jpg
+│      mrfz007.jpg
+│      mrfz008.jpg
+│      mrfz009.jpg
+│      mrfz010.jpg
+│      mrfz011.jpg
+│      mrfz012.jpg
+│      mrfz013.jpg
+│      mrfz014.jpg
+│      mrfz015.jpg
+│      mrfz016.jpg
+│      mrfz017.jpg
+│      mrfz018.jpg
+│      mrfz019.jpg
+│      mrfz020.jpg
+│      mrfz021.jpg
+│      mrfz022.jpg
+│      mrfz023.jpg
+│      mrfz024.jpg
+│      mrfz025.jpg
+│      mrfz026.jpg
+│      mrfz027.jpg
+│      mrfz028.jpg
+│      mrfz029.jpg
+│      mrfz030.jpg
+│      mrfz031.jpg
+│      mrfz032.jpg
+│      mrfz033.jpg
+│      mrfz034.jpg
+│      mrfz035.jpg
+│      mrfz036.jpg
+│      mrfz037.jpg
+│      mrfz038.jpg
+│      mrfz039.jpg
+│      mrfz040.jpg
+│      mrfz041.jpg
+│      mrfz042.jpg
+│      mrfz043.jpg
+│      mrfz044.jpg
+│      mrfz045.jpg
+│      mrfz046.jpg
+│      mrfz047.jpg
+│      mrfz048.jpg
+│      
+└─xi
+        tu000.jpg
+        tu001.jpg
+        tu002.jpg
+        tu003.jpg
+        tu004.jpg
+        tu005.jpg
+        tu006.jpg
+        tu007.jpg
+        tu008.jpg
+        tu009.jpg
+        tu010.jpg
+        tu011.jpg
+        tu012.jpg
+        tu013.jpg
+        
+
 
