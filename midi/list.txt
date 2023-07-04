@@ -29,6 +29,7 @@ C:.
 │      
 ├─normal
 │      alpha.mid
+│      bjhyn.mid
 │      dahai.mid
 │      djyqxyy.mid
 │      fireworks.mid
