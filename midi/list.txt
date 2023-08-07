@@ -2,7 +2,6 @@
 卷序列号为 CC2D-4711
 C:.
 ├─normal
-│      alpha.mid
 │      apchy.mid
 │      bjhyn.mid
 │      dahai.mid
@@ -22,6 +21,7 @@ C:.
 │      mxbc.mid
 │      moon_lies.mid
 │      naxienian.mid
+│      nggyu.mid
 │      nxqlzhk.mid
 │      nzms.mid
 │      qsndwr.mid
