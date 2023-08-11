@@ -8,13 +8,15 @@
 </head>
 
 <body>
-    <input id="searchContent" type="text">
-    <p>上方输入你要进入的贴吧名</p>
-    <script>function go() { open("http://tieba.baidu.com/mo/m?pn=0&kw=" + document.getElementById('searchContent').value) }</script>
-    <button onclick="go()">开始！</button>
+    <form action="http://tieba.baidu.com/mo/m" method="get">
+        <input id="searchContent" type="text" name="kw">
+        <p>上方输入你要进入的贴吧名</p>
+        <input type="submit" value="开始！">
+    </form>
     <br>
     <p>如果上方“开始”不能点击，那么请用下方链接进入喜灰吧</p>
-    <a href="http://tieba.baidu.com/mo/m?kw=%E5%96%9C%E7%BE%8A%E7%BE%8A%E4%B8%8E%E7%81%B0%E5%A4%AA%E7%8B%BC&pn=0">喜羊羊与灰太狼吧</a>
+    <a
+        href="http://tieba.baidu.com/mo/m?kw=%E5%96%9C%E7%BE%8A%E7%BE%8A%E4%B8%8E%E7%81%B0%E5%A4%AA%E7%8B%BC&pn=0">喜羊羊与灰太狼吧</a>
     <br>
 </body>
 
