@@ -78,10 +78,13 @@ C:.
 │      ballade.mid
 │      daisy.mid
 │      island1.mid
+│      jazz.mid
 │      mid02.mid
 │      mid03.mid
 │      minuet.mid
+│      reggae.mid
 │      sunset1.mid
+│      s_16_44.wav
 │      
 └─mms
        cnta_1_1.mid
