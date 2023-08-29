@@ -44,6 +44,7 @@ wenbie.mid	41
 whwdzg.mid	12
 wwm.mid		65
 xcgs.mid	14
+xingmang.mid       4
 xss.mid		26
 yjcy.mid	12
 yldbwdx.mid	29
