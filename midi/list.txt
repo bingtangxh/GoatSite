@@ -4,14 +4,14 @@
 \yuanchua\xingman2.mid
 \yuanchua\xingmang.mid
 
-\mms\cnta_1_1.midi
-\mms\cnta_1_2.midi
-\mms\cnta_1_3.midi
-\mms\cnta_1_4.midi
-\mms\cnta_1_5.midi
-\mms\cnta_1_6.midi
-\mms\cnta_1_8.midi
-\mms\cnta_1_9.midi
+\mms\CNTA_1_1.midi
+\mms\CNTA_1_2.midi
+\mms\CNTA_1_3.midi
+\mms\CNTA_1_4.midi
+\mms\CNTA_1_5.midi
+\mms\CNTA_1_6.midi
+\mms\CNTA_1_8.midi
+\mms\CNTA_1_9.midi
 \mms\img_01.mid
 \mms\img_02.midi
 
