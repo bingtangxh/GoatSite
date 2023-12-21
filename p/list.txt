@@ -1,11 +1,13 @@
 文件夹 PATH 列表
 卷序列号为 D262-AD7F
 八重神子误上传为BaZhongShenZi，敬请谅解。
-H:\OPERAMINI\WP
+文件夹名已改为p，例如：
+http://www.bingtangxh.moe/p/ys/WenDi.jpg
+H:\OPERAMINI\p
     High057.jpg
     xitu.jpg
 
-    
+
 没有子文件夹
 卷 22621 的文件夹 PATH 列表
 卷序列号为 F2C1-CFD2
