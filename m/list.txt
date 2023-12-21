@@ -25,33 +25,33 @@ mus是指MuseScore
 \mms\img_01.mid
 \mms\img_02.midi
 
-\ring\1_bell.mid
-\ring\2_stairs.mid
-\ring\3_carribean_cruise.mid
-\ring\4_bouncy_trip.mid
-\ring\5_jazzman.mid
-\ring\6_relaxation.mid
-\ring\7_dublincore.mid
-\ring\ballade.mid
-\ring\brook.mid
-\ring\calendar 2.mid
-\ring\calendar 3.mid
-\ring\clock 2.mid
-\ring\clock 3.mid
-\ring\clock alert 2.mid
-\ring\clock alert 2_.mid
-\ring\clock alert 3.mid
-\ring\cmcc ringtone midi 24.mid
-\ring\dreamy rainy day.mid
-\ring\mid02.mid
-\ring\minuet.mid
-\ring\over the horizon.mid
-\ring\ringtone09.mid
-\ring\rococo.mid
-\ring\spring field.mid
-\ring\theme.mid
-\ring\tumbler.mid
-\ring\woodland.mid
+\r\1_bell.mid
+\r\2_stairs.mid
+\r\3_carribean_cruise.mid
+\r\4_bouncy_trip.mid
+\r\5_jazzman.mid
+\r\6_relaxation.mid
+\r\7_dublincore.mid
+\r\ballade.mid
+\r\brook.mid
+\r\calendar 2.mid
+\r\calendar 3.mid
+\r\clock 2.mid
+\r\clock 3.mid
+\r\clock alert 2.mid
+\r\clock alert 2_.mid
+\r\clock alert 3.mid
+\r\cmcc rtone midi 24.mid
+\r\dreamy rainy day.mid
+\r\mid02.mid
+\r\minuet.mid
+\r\over the horizon.mid
+\r\rtone09.mid
+\r\rococo.mid
+\r\spr field.mid
+\r\theme.mid
+\r\tumbler.mid
+\r\woodland.mid
 
 \mus\dyrcj2.mid
 \mus\htys.mid
@@ -96,7 +96,7 @@ mus是指MuseScore
 \l\renai.mid
 \l\roof.mid
 \l\senbon.mid
-\l\spring.mid
+\l\spr.mid
 \l\t&j.mid
 \l\tobc2.mid
 \l\tobc3.mid
