@@ -4,7 +4,8 @@ www.bingtangxh.moe/m/mms/CNTA_1_4.midi
 l中文件偏大，不建议给存储空间太小的低端机下载。
 mms的来源已不可考，大概记得是十多年前中国移动的彩信。
 yuanchua中moonlie是Kohakut扒谱，xingmang是琅叔扒谱，xingman2和hxwl是Carmen卡萌酱扒谱。
-
+mds是指midishow
+mus是指MuseScore
 
 \yuanchua\hxwl.mid
 \yuanchua\moonlies.mid
