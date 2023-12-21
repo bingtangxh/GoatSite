@@ -3,15 +3,15 @@ www.bingtangxh.moe/m/mms/CNTA_1_4.midi
 请自行把右斜杠改成URL中的左斜杠。
 l中文件偏大，不建议给存储空间太小的低端机下载。
 mms的来源已不可考，大概记得是十多年前中国移动的彩信。
-yuanchua中moonlie是Kohakut扒谱，xingmang是琅叔扒谱，xingman2和hxwl是Carmen卡萌酱扒谱。
-mds是指midishow
+yc中moonlie是Kohakut扒谱，xingmang是琅叔扒谱，xingman2和hxwl是Carmen卡萌酱扒谱。
+mds是指MidiShow
 mus是指MuseScore
 
-\yuanchua\hxwl.mid
-\yuanchua\moonlies.mid
-\yuanchua\ossn.mid
-\yuanchua\xingman2.mid
-\yuanchua\xingmang.mid
+\yc\hxwl.mid
+\yc\moonlies.mid
+\yc\ossn.mid
+\yc\xingman2.mid
+\yc\xingmang.mid
 
 \mms\CNTA_1_1.midi
 \mms\CNTA_1_2.midi
@@ -52,13 +52,13 @@ mus是指MuseScore
 \ring\tumbler.mid
 \ring\woodland.mid
 
-\musescor\dyrcj2.mid
-\musescor\htys.mid
-\musescor\ponponpon.mid
-\musescor\qsmxxyy.mid
-\musescor\qywy.mid
-\musescor\slaw.mid
-\musescor\ylx2.mid
+\mus\dyrcj2.mid
+\mus\htys.mid
+\mus\ponponpon.mid
+\mus\qsmxxyy.mid
+\mus\qywy.mid
+\mus\slaw.mid
+\mus\ylx2.mid
 
 \mds\apchy.mid
 \mds\daihai.mid
