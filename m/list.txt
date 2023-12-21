@@ -1,9 +1,9 @@
-æ–‡ä»¶å¤¹åå·²æ”¹ä¸ºmï¼Œä¾‹å¦‚ï¼š
+ÎÄ¼ş¼ĞÃûÒÑ¸ÄÎªm£¬ÀıÈç£º
 www.bingtangxh.moe/m/mms/CNTA_1_4.midi
-è¯·è‡ªè¡ŒæŠŠå³æ–œæ æ”¹æˆURLä¸­çš„å·¦æ–œæ ã€‚
-largeä¸­æ–‡ä»¶åå¤§ï¼Œä¸å»ºè®®ç»™å­˜å‚¨ç©ºé—´å¤ªå°çš„ä½ç«¯æœºä¸‹è½½ã€‚
-mmsçš„æ¥æºå·²ä¸å¯è€ƒï¼Œå¤§æ¦‚è®°å¾—æ˜¯åå¤šå¹´å‰ä¸­å›½ç§»åŠ¨çš„å½©ä¿¡ã€‚
-yuanchuaä¸­moonlieæ˜¯Kohakutæ‰’è°±ï¼Œxingmangæ˜¯ç…å”æ‰’è°±ï¼Œxingman2å’Œhxwlæ˜¯Carmenå¡èŒé…±æ‰’è°±ã€‚
+Çë×ÔĞĞ°ÑÓÒĞ±¸Ü¸Ä³ÉURLÖĞµÄ×óĞ±¸Ü¡£
+lÖĞÎÄ¼şÆ«´ó£¬²»½¨Òé¸ø´æ´¢¿Õ¼äÌ«Ğ¡µÄµÍ¶Ë»úÏÂÔØ¡£
+mmsµÄÀ´Ô´ÒÑ²»¿É¿¼£¬´ó¸Å¼ÇµÃÊÇÊ®¶àÄêÇ°ÖĞ¹úÒÆ¶¯µÄ²ÊĞÅ¡£
+yuanchuaÖĞmoonlieÊÇKohakut°ÇÆ×£¬xingmangÊÇÀÅÊå°ÇÆ×£¬xingman2ºÍhxwlÊÇCarmen¿¨ÃÈ½´°ÇÆ×¡£
 
 
 \yuanchua\hxwl.mid
@@ -82,24 +82,24 @@ yuanchuaä¸­moonlieæ˜¯Kohakutæ‰’è°±ï¼Œxingmangæ˜¯ç…å”æ‰’è°±ï¼Œxingman2å’Œhxwlæ˜
 \midishow\xcgs.mid
 \midishow\yjcy.mid
 
-\large\bjhyn.mid
-\large\haiiro.mid
-\large\hktk.mid
-\large\hrjzl.mid
-\large\huaxin.mid
-\large\kawanaga.mid
-\large\nggyu.mid
-\large\nxn.mid
-\large\nzms.mid
-\large\renai.mid
-\large\roof.mid
-\large\senbon.mid
-\large\spring.mid
-\large\t&j.mid
-\large\tobc2.mid
-\large\tobc3.mid
-\large\tzdn.mid
-\large\wenbie.mid
-\large\xss.mid
-\large\yldbwdx.mid
-\large\zoyl.mid
+\l\bjhyn.mid
+\l\haiiro.mid
+\l\hktk.mid
+\l\hrjzl.mid
+\l\huaxin.mid
+\l\kawanaga.mid
+\l\nggyu.mid
+\l\nxn.mid
+\l\nzms.mid
+\l\renai.mid
+\l\roof.mid
+\l\senbon.mid
+\l\spring.mid
+\l\t&j.mid
+\l\tobc2.mid
+\l\tobc3.mid
+\l\tzdn.mid
+\l\wenbie.mid
+\l\xss.mid
+\l\yldbwdx.mid
+\l\zoyl.mid
