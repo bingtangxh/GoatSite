@@ -1,0 +1,99 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="robots" content="noindex, nofollow" />
+<title>页面加载中,请稍候...</title>
+<style>
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    overflow: hidden;
+}
+
+.loader {
+    width: 10em;
+    height: 10em;
+    font-size: 25px;
+    box-sizing: border-box;
+    border-top: 0.3em solid hotpink;
+    border-radius: 50%;
+    position: relative;
+    animation: rotating 2s ease-in-out infinite;
+    --direction: 1;
+}
+
+.loader::before,
+.loader::after {
+    content: '';
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    border-radius: 50%;
+    box-sizing: border-box;
+    top: -0.2em;
+}
+
+.loader::before {
+    border-top: 0.3em solid dodgerblue;
+    transform: rotate(120deg);
+}
+
+.loader::after {
+    border-top: 0.3em solid gold;
+    transform: rotate(240deg);
+}
+
+.loader span {
+    position: absolute;
+    color: white;
+    width: inherit;
+    height: inherit;
+    text-align: center;
+    line-height: 10em;
+    font-family: sans-serif;
+    animation: rotating 2s linear infinite;
+    --direction: -1;
+}
+
+@keyframes rotating {
+    50% {
+        transform: rotate(calc(180deg * var(--direction)));
+    }
+
+    100% {
+        transform: rotate(calc(360deg * var(--direction)));
+    }
+}
+</style>
+<script>
+window.onload = function() {
+    // 检查localStorage中的标记
+    if (localStorage.getItem("verified") === "true") {
+        window.location.href = 'https://download.csmjj.com/%E6%A0%B9%E7%9B%AE%E5%BD%95/youxi/2024/1'; // 如果标记存在，直接跳转
+    } else {
+        var confirmed = window.confirm("请确认不要恶意举报资源。举报资源者烂py。");
+        if (confirmed) {
+            var input = prompt("举报会发生什么（三个中文字）？");
+            if (input === "烂屁眼") {
+                localStorage.setItem("verified", "true"); // 设置标记
+                window.location.href = 'https://download.csmjj.com/%E6%A0%B9%E7%9B%AE%E5%BD%95/youxi/2024/1';
+            } else {
+                alert("输入错误，请重新输入！");
+            }
+        } else {
+            console.log("用户选择了取消，页面不跳转。");
+        }
+    }
+}
+</script>
+</head>
+<body>
+<div class="loader">
+  <span>页面加载中,请稍候...</span>
+</div>
+</body>
+</html>
