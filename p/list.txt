@@ -2,148 +2,233 @@ This text is encoded with UTF-8.
 Shi3yong4 UTF-8 bian1ma3
 文件夹 PATH 列表
 卷序列号为 D262-AD7F
-八重神子误上传为BaZhongShenZi，敬请谅解。
 文件夹名已改为p，例如：
 http://www.bingtangxh.moe/p/ys/WenDi.jpg
-H:\OPERAMINI\p
-    High057.jpg
-    xitu.jpg
 
-收录二游和喜灰的128*128壁纸。
-原神和明日方舟壁纸是Pixiv用户QuAn_（6657532）的作品。
-没有子文件夹
+收录二游和喜灰的128*128壁纸或头像。
+原神和明日方舟壁纸或头像是Pixiv用户QuAn_（6657532）的作品。
 卷 22621 的文件夹 PATH 列表
 卷序列号为 F2C1-CFD2
-C:.
-│  1.txt
+卷 Internal 的文件夹 PATH 列表
+卷序列号为 C881-4A2E
+D:.
+│  AMiYa.jpg
+│  DaYaYa.jpg
+│  HeiTa.jpg
+│  high057.jpg
+│  KaFuKa.jpg
+│  list.txt
+│  LuoCha.jpg
+│  Nian.jpg
+│  QinLiu.jpg
+│  SanYueQi0.jpg
+│  SanYueQi1.jpg
+│  xitu.jpg
+│  YuMaoBi.jpg
 │  
-├─ys
-│      ABeiDuo.jpg
-│      AiErHaiSen.jpg
-│      AMiYa.jpg
-│      BaBaLa.jpg
-│      BaZhongShenZi0.jpg
-│      BaZhongShenZi1.jpg
-│      DaYaYa.jpg
-│      DiLuKe.jpg
-│      FaLuShan.jpg
-│      GanYu.jpg
-│      GongZi0.jpg
-│      GongZi1.jpg
-│      GuiZhong.jpg
-│      HeiTa.jpg
-│      HuTao0.jpg
-│      HuTao1.jpg
-│      KaFuKa.jpg
-│      KeLi.jpg
-│      Kong.jpg
-│      LeiDianJiangJun0.jpg
-│      LeiDianJiangJun1.jpg
-│      LuoCha.jpg
-│      MoNa.jpg
-│      NaXiDa0.jpg
-│      NaXiDa1.jpg
-│      Nian.jpg
-│      NiLu0.jpg
-│      NiLu1.jpg
-│      NuoAiEr0.jpg
-│      NuoAiEr1.jpg
-│      QiLiangLiang.jpg
-│      QinLiu.jpg
-│      QiQi.jpg
-│      SaiNuo.jpg
-│      SanBing0.jpg
-│      SanBing1.jpg
-│      SanYueQi0.jpg
-│      SanYueQi1.jpg
-│      ShenHe.jpg
-│      ShenLi0.jpg
-│      ShenLi1.jpg
-│      ShenLiLingRen.jpg
-│      WanYe.jpg
-│      WenDi.jpg
-│      XiangLing.jpg
-│      Xiao.jpg
-│      XiaoGong.jpg
-│      XiLan.jpg
-│      XinHai.jpg
-│      YanFei.jpg
-│      YaoYao.jpg
-│      Ying.jpg
-│      YouLa.jpg
-│      YuanShenYiZhouNianPaiMeng0.jpg
-│      YuanShenYiZhouNianPaiMeng1.jpg
-│      YuanShenYiZhouNianPaiMeng2.jpg
-│      YuMaoBi.jpg
-│      YunJin.jpg
-│      ZhongLi.jpg
-│       
 ├─mrfz
-│      mrfz000.jpg
-│      mrfz001.jpg
-│      mrfz002.jpg
-│      mrfz003.jpg
-│      mrfz004.jpg
-│      mrfz005.jpg
-│      mrfz006.jpg
-│      mrfz007.jpg
-│      mrfz008.jpg
-│      mrfz009.jpg
-│      mrfz010.jpg
-│      mrfz011.jpg
-│      mrfz012.jpg
-│      mrfz013.jpg
-│      mrfz014.jpg
-│      mrfz015.jpg
-│      mrfz016.jpg
-│      mrfz017.jpg
-│      mrfz018.jpg
-│      mrfz019.jpg
-│      mrfz020.jpg
-│      mrfz021.jpg
-│      mrfz022.jpg
-│      mrfz023.jpg
-│      mrfz024.jpg
-│      mrfz025.jpg
-│      mrfz026.jpg
-│      mrfz027.jpg
-│      mrfz028.jpg
-│      mrfz029.jpg
-│      mrfz030.jpg
-│      mrfz031.jpg
-│      mrfz032.jpg
-│      mrfz033.jpg
-│      mrfz034.jpg
-│      mrfz035.jpg
-│      mrfz036.jpg
-│      mrfz037.jpg
-│      mrfz038.jpg
-│      mrfz039.jpg
-│      mrfz040.jpg
-│      mrfz041.jpg
-│      mrfz042.jpg
-│      mrfz043.jpg
-│      mrfz044.jpg
-│      mrfz045.jpg
-│      mrfz046.jpg
-│      mrfz047.jpg
-│      mrfz048.jpg
+│  ├─ChiGuaQunZhong
+│  │      JieXiKa.jpg
+│  │      KeEBai.jpg
+│  │      KeSong.jpg
+│  │      NengTianShi.jpg
+│  │      Nian.jpg
+│  │      SiKaDi.jpg
+│  │      XingJi.jpg
+│  │      XueZhi.jpg
+│  │      YinHui.jpg
+│  │      
+│  ├─could_not_be_classified
+│  │      KeLuXiEr.jpg
+│  │      ShuangXing.jpg
+│  │      
+│  ├─FuZhu
+│  │      AnJieLiNa.jpg
+│  │      ChuXue.jpg
+│  │      Kong.jpg
+│  │      LingLan.jpg
+│  │      MaiZheLun.jpg
+│  │      ZhenLi.jpg
+│  │      
+│  ├─JinWei
+│  │      Chen.jpg
+│  │      Huang.jpg
+│  │      KeDao.jpg
+│  │      LaPuLanDe.jpg
+│  │      MeiLanSha.jpg
+│  │      ShiErTeEr.jpg
+│  │      ShiHuaiYa.jpg
+│  │      ShuangYe.jpg
+│  │      SiKaDi1.jpg
+│  │      SiKaDi2.jpg
+│  │      XingJi.jpg
+│  │      YouLingSha.jpg
+│  │      YuMaoBi.jpg
+│  │      
+│  ├─JuJi
+│  │      BaiJin.jpg
+│  │      Hei.jpg
+│  │      HuiHou.jpg
+│  │      JieXiKa.jpg
+│  │      KongXian.jpg
+│  │      LanDu1.jpg
+│  │      LanDu2.jpg
+│  │      MiDieXiang.jpg
+│  │      NengTianShi1.jpg
+│  │      NengTianShi2.jpg
+│  │      ShouLinRen.jpg
+│  │      W.jpg
+│  │      ZaoLu.jpg
+│  │      
+│  ├─ShuShi
+│  │      AiYaFaLa.jpg
+│  │      AMiYa1.jpg
+│  │      AMiYa2.jpg
+│  │      BaoLv.jpg
+│  │      KeEBai.jpg
+│  │      MiLa.jpg
+│  │      MoSiTiMa.jpg
+│  │      TeMiMi.jpg
+│  │      TianHuo.jpg
+│  │      Xi.jpg
+│  │      YeMo.jpg
+│  │      
+│  ├─TeZhong
+│  │      AnSuo.jpg
+│  │      Hong0.jpg
+│  │      Hong1.jpg
+│  │      KuiYing.jpg
+│  │      ShiJunZhe.jpg
+│  │      ShiXie.jpg
+│  │      ShuiYue.jpg
+│  │      WenDi.jpg
+│  │      
+│  ├─XianFeng
+│  │      CuoE.jpg
+│  │      DeKeSaSi.jpg
+│  │      FengDi.jpg
+│  │      LinDong.jpg
+│  │      QinLiu.jpg
+│  │      TaoJinNiang.jpg
+│  │      TuiJinZhiWang.jpg
+│  │      WeiCao.jpg
+│  │      
+│  ├─YiLiao
+│  │      AnSaiEr.jpg
+│  │      BaiMianXiao.jpg
+│  │      HuaFaLin.jpg
+│  │      KaiErXi.jpg
+│  │      QingLiu.jpg
+│  │      ShanLing.jpg
+│  │      XiLan.jpg
+│  │      YeYing.jpg
+│  │      
+│  └─ZhongZhuang
+│          HuoShen.jpg
+│          KaTi.jpg
+│          Nian1.jpg
+│          Nian2.jpg
+│          Nian3.jpg
+│          NiYan.jpg
+│          SenRan.jpg
+│          ShiMian.jpg
+│          XiaGuang.jpg
+│          XingXiong.jpg
+│          
+├─s
+│      20220326.jpg
+│      20220703.jpg
+│      20220906.jpg
+│      20220920.jpg
+│      20220928.jpg
+│      20221129.jpg
+│      20230121.jpg
+│      20240101.jpg
+│      20240117.jpg
+│      20240121.jpg
 │      
-└─xi
-        tu000.jpg
-        tu001.jpg
-        tu002.jpg
-        tu003.jpg
-        tu004.jpg
-        tu005.jpg
-        tu006.jpg
-        tu007.jpg
-        tu008.jpg
-        tu009.jpg
-        tu010.jpg
-        tu011.jpg
-        tu012.jpg
-        tu013.jpg
-        
-
-
+├─xi
+│      tu000.jpg
+│      tu001.jpg
+│      tu002.jpg
+│      tu003.jpg
+│      tu004.jpg
+│      tu005.jpg
+│      tu006.jpg
+│      tu007.jpg
+│      tu008.jpg
+│      tu009.jpg
+│      tu010.jpg
+│      tu011.jpg
+│      tu012.jpg
+│      tu013.jpg
+│      
+└─ys
+    ├─anemo
+    │      FaLuShan.jpg
+    │      Qin.jpg
+    │      SanBing0.jpg
+    │      SanBing1.jpg
+    │      WanYe.jpg
+    │      WenDi.jpg
+    │      Xiao.jpg
+    │      
+    ├─cryo
+    │      GanYu.jpg
+    │      QiQi.jpg
+    │      ShenHe.jpg
+    │      ShenLiLingHua0.jpg
+    │      ShenLiLingHua1.jpg
+    │      YouLa.jpg
+    │      
+    ├─dendro
+    │      AiErHaiSen.jpg
+    │      NaXiDa0.jpg
+    │      NaXiDa1.jpg
+    │      QiLiangLiang.jpg
+    │      YaoYao.jpg
+    │      
+    ├─electro
+    │      BaZhongShenZi0.jpg
+    │      BaZhongShenZi1.jpg
+    │      FeiXieEr.jpg
+    │      KeQing.jpg
+    │      LeiDianJiangJun0.jpg
+    │      LeiDianJiangJun1.jpg
+    │      SaiNuo.jpg
+    │      
+    ├─geo
+    │      ABeiDuo.jpg
+    │      NuoAiEr0.jpg
+    │      NuoAiEr1.jpg
+    │      YunJin.jpg
+    │      ZhongLi.jpg
+    │      
+    ├─hydro
+    │      BaBaLa.jpg
+    │      GongZi0.jpg
+    │      GongZi1.jpg
+    │      MoNa.jpg
+    │      NiLu0.jpg
+    │      NiLu1.jpg
+    │      ShenLiLingRen0.jpg
+    │      ShenLiLingRen1.jpg
+    │      XinHai.jpg
+    │      
+    ├─other
+    │      GuiZhong.jpg
+    │      Kong.jpg
+    │      Ying.jpg
+    │      YuanShenYiZhouNianPaiMeng0.jpg
+    │      YuanShenYiZhouNianPaiMeng1.jpg
+    │      YuanShenYiZhouNianPaiMeng2.jpg
+    │      
+    └─pyro
+            DiLuKe.jpg
+            HuTao0.jpg
+            HuTao1.jpg
+            KeLi.jpg
+            XiangLing.jpg
+            XiaoGong.jpg
+            YanFei.jpg
+            
