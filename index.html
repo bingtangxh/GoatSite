@@ -39,9 +39,10 @@ word-wrap:break-word;text-justify-trim:punctuation'>
         <br>
         也可能继续用，毕竟一个 IPv4 的公共 IP 也就 43.8 美元
         <br>
-        如果想要更详细的文件浏览体验并且你的设备支持，可以在域名后面加上端口号 :81 ，是 venti 子域名。
+        如果想要更详细的文件浏览体验并且你的设备支持，可以在域名后面加上端口号 :81 ，再改成 venti 子域名。
         <br>
-        这个用的是 IIS ，默认端口 80 则是 Python -m http.server。
+        venti 子域名已经配了 win-acme，所以可以 https 访问了，但是不能直接 IP 地址访问了。（下面的链接还是明确写的 http。支持 https 的可以手动地址栏输入域名）
+        因为 win-acme 的话，最好 80 端口是 IIS ，所以现在 80 和 81 两个端口都用的是 IIS ，python -m http.server 废除了，不要了。
         <br>
         venti 子域名的 82 端口可 FTP 下载这里挂的磁力下载文件。84 端口可向 venti 子域名的 /reshima 目录通过 FTP 上传文件。
         用户名 venti 密码 Vent1234 。因为这个服务器现在用的是静态 IP 地址了，所以可以在文件资源管理器中直接通过被动模式 PASV 访问。
