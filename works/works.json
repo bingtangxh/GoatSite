@@ -8,6 +8,6 @@
       "Linux AMD64"
     ],
     "description": "gipool是一个用于查询原神历史卡池、每一个角色的UP历史和距今未UP天数的控制台程序。\ngipool is a CLI app which can use for querying Genshin Impact wish pool history and UP history of each character, even days since last UP.",
-    "download": "https://github.com/bingtangxh/gipool/release"
+    "download": "https://github.com/bingtangxh/gipool/releases"
   }
 ]

@@ -49,6 +49,14 @@
         return value == null ? "" : String(value);
       }
 
+      function getSafeHttpsUrl(value) {
+        var url = asText(value);
+        if (/^https:\/\//i.test(url)) {
+          return url;
+        }
+        return "";
+      }
+
       function renderList(list) {
         var container = document.getElementById("works");
         container.innerHTML = "";
@@ -85,11 +93,16 @@
           wrap.appendChild(desc);
 
           var linkLine = document.createElement("p");
-          var link = document.createElement("a");
-          link.href = asText(item.download);
-          link.appendChild(document.createTextNode(asText(item.download)));
           linkLine.appendChild(document.createTextNode("下载链接："));
-          linkLine.appendChild(link);
+          var safeUrl = getSafeHttpsUrl(item.download);
+          if (safeUrl) {
+            var link = document.createElement("a");
+            link.href = safeUrl;
+            link.appendChild(document.createTextNode(safeUrl));
+            linkLine.appendChild(link);
+          } else {
+            linkLine.appendChild(document.createTextNode("无效链接"));
+          }
           wrap.appendChild(linkLine);
 
           container.appendChild(wrap);
@@ -111,7 +124,7 @@
           return;
         }
 
-        if (xhr.status >= 200 && xhr.status < 300) {
+        if ((xhr.status >= 200 && xhr.status < 300) || xhr.status === 304) {
           try {
             renderList(JSON.parse(xhr.responseText));
           } catch (e) {
