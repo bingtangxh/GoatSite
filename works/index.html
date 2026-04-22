@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>我的小玩意</title>
+  <style>
+    body {
+      margin: 20px;
+      max-width: 880px;
+      line-height: 1.6;
+      font-family: "Segoe UI", Arial, sans-serif;
+    }
+
+    .work-item {
+      padding: 12px 0;
+      border-top: 1px solid #ccc;
+    }
+
+    .work-item:first-child {
+      border-top: none;
+    }
+
+    .work-title {
+      margin: 0 0 6px 0;
+      font-size: 22px;
+    }
+
+    .work-os {
+      margin: 0 0 6px 0;
+    }
+
+    .work-desc {
+      margin: 0 0 6px 0;
+      white-space: pre-wrap;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>一些我做的小玩意</h1>
+  <div id="works">正在加载……</div>
+
+  <script>
+    (function () {
+      function asText(value) {
+        return value == null ? "" : String(value);
+      }
+
+      function renderList(list) {
+        var container = document.getElementById("works");
+        container.innerHTML = "";
+
+        if (!list || !list.length) {
+          container.innerHTML = "<p>暂时没有可展示的项目。</p>";
+          return;
+        }
+
+        for (var i = 0; i < list.length; i++) {
+          var item = list[i] || {};
+
+          var wrap = document.createElement("div");
+          wrap.className = "work-item";
+
+          var title = document.createElement("h2");
+          title.className = "work-title";
+          title.appendChild(document.createTextNode(asText(item.title)));
+          wrap.appendChild(title);
+
+          var os = document.createElement("p");
+          os.className = "work-os";
+          os.appendChild(document.createTextNode("支持系统："));
+          if (Object.prototype.toString.call(item.os) === "[object Array]") {
+            os.appendChild(document.createTextNode(item.os.join(", ")));
+          } else {
+            os.appendChild(document.createTextNode(asText(item.os)));
+          }
+          wrap.appendChild(os);
+
+          var desc = document.createElement("p");
+          desc.className = "work-desc";
+          desc.appendChild(document.createTextNode(asText(item.description)));
+          wrap.appendChild(desc);
+
+          var linkLine = document.createElement("p");
+          var link = document.createElement("a");
+          link.href = asText(item.download);
+          link.appendChild(document.createTextNode(asText(item.download)));
+          linkLine.appendChild(document.createTextNode("下载链接："));
+          linkLine.appendChild(link);
+          wrap.appendChild(linkLine);
+
+          container.appendChild(wrap);
+        }
+      }
+
+      function showError(message) {
+        var container = document.getElementById("works");
+        container.innerHTML = "";
+        var p = document.createElement("p");
+        p.appendChild(document.createTextNode(message));
+        container.appendChild(p);
+      }
+
+      var xhr = new XMLHttpRequest();
+      xhr.open("GET", "/works/works.json", true);
+      xhr.onreadystatechange = function () {
+        if (xhr.readyState !== 4) {
+          return;
+        }
+
+        if (xhr.status >= 200 && xhr.status < 300) {
+          try {
+            renderList(JSON.parse(xhr.responseText));
+          } catch (e) {
+            showError("works.json 解析失败。");
+          }
+          return;
+        }
+
+        showError("works.json 加载失败。");
+      };
+      xhr.send();
+    })();
+  </script>
+</body>
+
+</html>
