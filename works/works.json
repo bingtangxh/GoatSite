@@ -9,5 +9,77 @@
     ],
     "description": "gipool是一个用于查询原神历史卡池、每一个角色的UP历史和距今未UP天数的控制台程序。\ngipool is a CLI app which can use for querying Genshin Impact wish pool history and UP history of each character, even days since last UP.",
     "download": "https://github.com/bingtangxh/gipool/releases"
+  },
+  {
+    "title": "Anemo LockWizard",
+    "os": [
+      "Windows 8.1",
+      "Windows RT 8.1",
+      "Windows Phone 8.1",
+      "Windows 10",
+      "Windows 10 Mobile",
+      "Windows 11"
+    ],
+    "description": "Anemo LockWizard 可以将你自己想要的字符串构造成一个磁贴，你可以将其放置在锁屏界面上。对于电脑端，它还支持将必应壁纸设置为锁屏壁纸，并将对应的壁纸配文设为磁贴。手机端由于权限问题，只能将必应壁纸先下载下来，再设为壁纸。",
+    "download": "https://github.com/bingtangxh/Anemo_TileWizard/releases"
+  },
+  {
+    "title": "DPIDDC",
+    "os": [
+      "Windows Vista or greater",
+      "Windows RT"
+    ],
+    "description": "DPIDDC 即 DigitalProductId Decoder Console Edition，它会将当前系统注册表中的 DigitalProductId 键的数值解码为产品密钥。也支持通过命令行解密任意来源的其它 DigitalProductId 数值。",
+    "download": "https://github.com/bingtangxh/DPIDDC/releases"
+  },
+  {
+    "title": "SignTool",
+    "os": [
+      "Windows Any Version with .NET Framework 4.5"
+    ],
+    "description": "这个 SignTool 与 Windows SDK 包含的 SignTool 不同，这个 SignTool 只能对 .exe .dll .sys 文件进行签名，从而可以在仅开启了测试模式的 Windows RT 设备上运行，且只能使用内置写死的一个私钥进行签名，但是更加简单易用。它是 .NET Framework 4.5 写的，所以它本身被签过名之后，就也可在仅开启了测试模式的 Windows RT 上运行了。",
+    "download": "https://github.com/bingtangxh/SignTool/releases"
+  },
+  {
+    "title": "App Installer For Windows 8.x Reset",
+    "os": [
+      "Windows 8 or greater",
+      "Windows RT"
+    ],
+    "description": "App Installer For Windows 8.x Reset 是 Angra 做的给 Windows 8.x 用的图形化 Appx 软件包安装程序，可以批量安装多个软件包，且能自动将软件包数字签名公钥添加到信任区，省去手动导入证书的繁琐操作。现在支持 Windows RT 了。",
+    "download": "https://github.com/bingtangxh/App-Installer-For-Windows-8.x-Reset/releases"
+  },
+  {
+    "title": "Sparkborne",
+    "os": [
+      "Windows Vista or greater",
+      "Windows RT"
+    ],
+    "description": "Sparkborne 可以管理当前系统的开机启动项目。对于 Windows RT，你可以将 Sparkborne 放入任务计划程序，在每次用户登录时运行，带上 -startup 参数和“使用最高权限运行”，这样它就会将本来 Windows RT 不启动的注册表和 shell:startup 文件夹中放置的启动项都启动一遍，本来 Windows RT 想要开机自启，只能放进任务计划或者注册成服务，而很多移植的桌面应用设置开机自启还是放进注册表或 shell:startup 文件夹。",
+    "download": "https://github.com/bingtangxh/Sparkborne/releases"
+  },
+  {
+    "title": "Reversed Projector",
+    "os": [
+      "Windows 8 or greater"
+    ],
+    "description": "Reversed Projector 是一个基于 WinRT/WinJS 的接收 DLNA 投屏的程序。 Windows 8.x 的“设备”超级按钮只能发送投屏、不能接收，需要接收一般都是使用 Windows Media Player，而 Windows RT 默认不包含 Windows Media Player，所以你可以用这个应用软件接收投屏。",
+    "download": "https://qm.qq.com/cgi-bin/qm/qr?k=J3mra4ATLfWwP9Z07Swu8oFjTDopLuq5&jump_from=webapi&authKey=oNdAVRZq/Fd6B5x6ZCQmcoRB556bLKI0lWxbKaGLhi0BNmCTrSl78OJGsKj1GSBS" 
+  },
+  {
+    "title": "Simple Monitor",
+    "os": [
+      "Windows 8 or greater"
+    ],
+    "description": "Simple Monitor 是一个无 UI 摄像头应用软件，没有拍照功能，只能监视画面，可以用于将采集卡的画面全屏显示出来。底部上滑可以切换摄像头设备。",
+    "download": "https://qm.qq.com/cgi-bin/qm/qr?k=J3mra4ATLfWwP9Z07Swu8oFjTDopLuq5&jump_from=webapi&authKey=oNdAVRZq/Fd6B5x6ZCQmcoRB556bLKI0lWxbKaGLhi0BNmCTrSl78OJGsKj1GSBS" 
+  },
+  {
+    "title": "Monsieur Vérité",
+    "os": [
+      "Windows 8 or greater"
+    ],
+    "description": "Monsieur Vérité 是一个接收共享屏幕截图的程序，使用“共享”超级按钮将屏幕截图共享给 Monsieur Vérité，Monsieur Vérité就会自动将截图保存在图片库中。",
+    "download": "https://qm.qq.com/cgi-bin/qm/qr?k=J3mra4ATLfWwP9Z07Swu8oFjTDopLuq5&jump_from=webapi&authKey=oNdAVRZq/Fd6B5x6ZCQmcoRB556bLKI0lWxbKaGLhi0BNmCTrSl78OJGsKj1GSBS" 
   }
 ]
