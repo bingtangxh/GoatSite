@@ -35,7 +35,8 @@
   {
     "title": "SignTool",
     "os": [
-      "Windows Any Version with .NET Framework 4.5"
+      "Windows Any Version with .NET Framework 4.5",
+      "Windows RT"
     ],
     "description": "这个 SignTool 与 Windows SDK 包含的 SignTool 不同，这个 SignTool 只能对 .exe .dll .sys 文件进行签名，从而可以在仅开启了测试模式的 Windows RT 设备上运行，且只能使用内置写死的一个私钥进行签名，但是更加简单易用。它是 .NET Framework 4.5 写的，所以它本身被签过名之后，就也可在仅开启了测试模式的 Windows RT 上运行了。",
     "download": "https://github.com/bingtangxh/SignTool/releases"
@@ -61,7 +62,8 @@
   {
     "title": "Reversed Projector",
     "os": [
-      "Windows 8 or greater"
+      "Windows 8 or greater",
+      "Windows RT"
     ],
     "description": "Reversed Projector 是一个基于 WinRT/WinJS 的接收 DLNA 投屏的程序。 Windows 8.x 的“设备”超级按钮只能发送投屏、不能接收，需要接收一般都是使用 Windows Media Player，而 Windows RT 默认不包含 Windows Media Player，所以你可以用这个应用软件接收投屏。",
     "download": "https://qm.qq.com/cgi-bin/qm/qr?k=J3mra4ATLfWwP9Z07Swu8oFjTDopLuq5&jump_from=webapi&authKey=oNdAVRZq/Fd6B5x6ZCQmcoRB556bLKI0lWxbKaGLhi0BNmCTrSl78OJGsKj1GSBS" 
@@ -69,7 +71,8 @@
   {
     "title": "Simple Monitor",
     "os": [
-      "Windows 8 or greater"
+      "Windows 8 or greater",
+      "Windows RT"
     ],
     "description": "Simple Monitor 是一个无 UI 摄像头应用软件，没有拍照功能，只能监视画面，可以用于将采集卡的画面全屏显示出来。底部上滑可以切换摄像头设备。",
     "download": "https://qm.qq.com/cgi-bin/qm/qr?k=J3mra4ATLfWwP9Z07Swu8oFjTDopLuq5&jump_from=webapi&authKey=oNdAVRZq/Fd6B5x6ZCQmcoRB556bLKI0lWxbKaGLhi0BNmCTrSl78OJGsKj1GSBS" 
@@ -77,7 +80,8 @@
   {
     "title": "Monsieur Vérité",
     "os": [
-      "Windows 8 or greater"
+      "Windows 8 or greater",
+      "Windows RT"
     ],
     "description": "Monsieur Vérité 是一个接收共享屏幕截图的程序，使用“共享”超级按钮将屏幕截图共享给 Monsieur Vérité，Monsieur Vérité就会自动将截图保存在图片库中。",
     "download": "https://qm.qq.com/cgi-bin/qm/qr?k=J3mra4ATLfWwP9Z07Swu8oFjTDopLuq5&jump_from=webapi&authKey=oNdAVRZq/Fd6B5x6ZCQmcoRB556bLKI0lWxbKaGLhi0BNmCTrSl78OJGsKj1GSBS" 
