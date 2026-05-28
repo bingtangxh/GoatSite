@@ -18,7 +18,7 @@
       "Windows Phone 8.1",
       "Windows 10",
       "Windows 10 Mobile",
-      "Windows 11"
+      "Windows 11 25H2 or lower"
     ],
     "description": "Anemo LockWizard 可以将你自己想要的字符串构造成一个磁贴，你可以将其放置在锁屏界面上。对于电脑端，它还支持将必应壁纸设置为锁屏壁纸，并将对应的壁纸配文设为磁贴。手机端由于权限问题，只能将必应壁纸先下载下来，再设为壁纸。\nAnemo LockWizard allows you to build a tile with any string you want and place it on the lock screen. On PC, it also supports setting Bing wallpapers as lock screen wallpapers and displaying the corresponding caption as a tile. On mobile, due to permission restrictions, it can only download Bing wallpapers and set them as the wallpaper.",
     "download": "https://github.com/bingtangxh/Anemo_TileWizard/releases"
@@ -62,7 +62,7 @@
   {
     "title": "Reversed Projector",
     "os": [
-      "Windows 8 or greater",
+      "Windows 8 ~ Windows 11 25H2",
       "Windows RT"
     ],
     "description": "Reversed Projector 是一个基于 WinRT/WinJS 的接收 DLNA 投屏的程序。 Windows 8.x 的“设备”超级按钮只能发送投屏、不能接收，需要接收一般都是使用 Windows Media Player，而 Windows RT 默认不包含 Windows Media Player，所以你可以用这个应用软件接收投屏。\nReversed Projector is a WinRT/WinJS-based application for receiving DLNA screen casts. The \"Devices\" charm in Windows 8.x can only send screen casts but not receive them. Receiving typically requires Windows Media Player, which is not included by default on Windows RT, so you can use this app to receive screen casts.",
@@ -71,7 +71,7 @@
   {
     "title": "Simple Monitor",
     "os": [
-      "Windows 8 or greater",
+      "Windows 8 ~ Windows 11 25H2",
       "Windows RT"
     ],
     "description": "Simple Monitor 是一个无 UI 摄像头应用软件，没有拍照功能，只能监视画面，可以用于将采集卡的画面全屏显示出来。底部上滑可以切换摄像头设备。\nSimple Monitor is a UI-less camera application with no photo-taking functionality. It can only display the live view, and can be used to display a capture card's feed in full screen. Swipe up from the bottom to switch camera devices.",
@@ -80,7 +80,7 @@
   {
     "title": "Monsieur Vérité",
     "os": [
-      "Windows 8 or greater",
+      "Windows 8 ~ Windows 11 25H2",
       "Windows RT"
     ],
     "description": "Monsieur Vérité 是一个接收共享屏幕截图的程序，使用“共享”超级按钮将屏幕截图共享给 Monsieur Vérité，Monsieur Vérité就会自动将截图保存在图片库中。\nMonsieur Vérité is a program for receiving shared screenshots. Share a screenshot to Monsieur Vérité using the \"Share\" charm, and Monsieur Vérité will automatically save the screenshot to your Pictures library.",
