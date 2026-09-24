@@ -4,28 +4,112 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Btxh's Contacts</title>
+  <title>冰糖XH的友情链接</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: #f1f3f2;
+      color: #222;
+      font-family: 'Microsoft YaHei', 'DengXian', Arial, SimSun, sans-serif;
+    }
+    main { max-width: 1040px; margin: 0 auto; padding: 48px 24px 64px; }
+    h1 { margin: 0 0 22px; font-size: 28px; font-weight: 600; }
+    .music-player { display: block; max-width: 100%; margin-bottom: 36px; border: 0; }
+    .tiles { display: flex; flex-wrap: wrap; gap: 12px; margin: 0; padding: 0; list-style: none; }
+    .tile {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      width: 310px;
+      max-width: 100%;
+      height: 150px;
+      padding: 18px;
+      background-color: #62676b;
+      color: #fff;
+      text-decoration: none;
+      transition: filter 150ms ease, transform 150ms ease;
+    }
+    .tile:hover { filter: brightness(0.85); transform: translateY(-2px); }
+    .tile:focus-visible { outline: 3px solid #007f86; outline-offset: 3px; }
+    .tile-image { flex: 0 0 108px; width: 108px; height: 108px; background-color: inherit; }
+    .tile-image img { display: block; width: 100%; height: 100%; object-fit: cover; }
+    .tile-content { min-width: 0; flex: 1; }
+    .tile-title {
+      display: block;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      font-size: 20px;
+      line-height: 1.4;
+      font-weight: 600;
+    }
+    .tile-description {
+      display: -webkit-box;
+      overflow: hidden;
+      margin-top: 8px;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 3;
+      line-clamp: 3;
+      font-size: 14px;
+      line-height: 1.5;
+      color: #f0f0f0;
+    }
+    @media (max-width: 380px) {
+      main { padding: 32px 16px 48px; }
+      .tile { gap: 12px; padding: 14px; }
+      .tile-image { flex-basis: 96px; width: 96px; height: 96px; }
+    }
+  </style>
 </head>
 
-<body style="background-color: aqua;">
-  <h1>冰糖xh的友情链接</h1>
-  <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=298 height=52
-    src="//music.163.com/outchain/player?type=2&id=1614668&auto=0&height=32">
-  </iframe>
-  <ul>
-    <li>
-      <a href="https://blog.pinpe.top/">Pinpe 的云端</a>
-    </li>
-    <li>
-      <a href="https://ttio.cc/links/">記緒漂流</a>
-    </li>
-    <li>
-      <a href="https://114514.store/partner/">HomoのWebsite</a>
-    </li>
-    <li>
-      <a href="https://blog.xingchencloud.top/">叶玖洛の笔记</a>
-    </li>
-  </ul>
+<body>
+  <main>
+    <h1>冰糖XH的友情链接</h1>
+    <iframe class="music-player" title="网易云音乐播放器" width="298" height="52"
+      src="https://music.163.com/outchain/player?type=2&id=1614668&auto=0&height=32"></iframe>
+
+    <!-- 背景色：在 a 上添加 style="background-color: #颜色值"；图片：在 tile-image 内添加 img；描述：填写 tile-description。 -->
+    <ul class="tiles">
+      <li>
+        <a class="tile" href="https://blog.pinpe.top/">
+          <span class="tile-image"></span>
+          <span class="tile-content">
+            <span class="tile-title">Pinpe 的云端</span>
+            <span class="tile-description"></span>
+          </span>
+        </a>
+      </li>
+      <li>
+        <a class="tile" href="https://ttio.cc/links/">
+          <span class="tile-image"></span>
+          <span class="tile-content">
+            <span class="tile-title">記緒漂流</span>
+            <span class="tile-description"></span>
+          </span>
+        </a>
+      </li>
+      <li>
+        <a class="tile" href="https://114514.store/partner/">
+          <span class="tile-image"></span>
+          <span class="tile-content">
+            <span class="tile-title">HomoのWebsite</span>
+            <span class="tile-description"></span>
+          </span>
+        </a>
+      </li>
+      <li>
+        <a class="tile" href="https://blog.xingchencloud.top/">
+          <span class="tile-image"></span>
+          <span class="tile-content">
+            <span class="tile-title">叶玖洛の笔记</span>
+            <span class="tile-description"></span>
+          </span>
+        </a>
+      </li>
+    </ul>
+  </main>
 </body>
 
 </html>
