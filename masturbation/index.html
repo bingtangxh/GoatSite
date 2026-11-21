@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="refresh" content="43200">
+  <title>道观间隔天数累计</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      min-height: 100svh;
+      display: flex;
+      flex-direction: column;
+      padding: 32px 20px;
+      background: #c6ffd4;
+      color: #000;
+      font-family: system-ui;
+      text-align: center;
+    }
+    #copyright a {
+      color: inherit;
+      text-decoration: underline;
+    }
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    h1 {
+      max-width: 1000px;
+      font-size: clamp(28px, 5vw, 60px);
+      font-weight: normal;
+      line-height: 1.5;
+    }
+    #mainText { font-family: "KaiTi", "楷体", "STKaiti", "Kaiti SC", "楷体_GB2312", "华文行楷", "STXingkai", system-ui; }
+    h1 span { color: #c35a36; }
+    main p { color: #000; }
+    footer {
+      max-width: 900px;
+      margin: 32px auto 0;
+      font-size: 14px;
+      line-height: 1.8;
+      color: #000;
+    }
+    #copyright {
+      display: block;
+      margin-top: 12px;
+      color: inherit;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1 id="mainText">这家伙已经 <span id="days">…</span> 天没有 0721 啦！</h1>
+    <p id="sinceDate">从 2005 年 6 月 16 日开始计算</p>
+    <noscript id="noScriptNotification">请启用 JavaScript，以显示截至今天的天数。</noscript>
+  </main>
+  <footer>
+    <div id="lifetime">这家伙的生日就是 2005 年 6 月 16 日，因此我们可以得出一个可怕的结论——这家伙从出生到现在一直都没有 0721 过。</div>
+    <p id="copyright">© 2023-<span id="year"></span> <a href="/">BingtangXH</a></p>
+  </footer>
+  <script>
+    const today = new Date();
+    // 按浏览器所在时区的日历日期计算，避免夏令时影响天数。
+    const startDate = Date.UTC(2005, 5, 16);
+    const currentDate = Date.UTC(today.getFullYear(), today.getMonth(), today.getDate());
+    const days = Math.floor((currentDate - startDate) / 86400000);
+
+    document.getElementById('days').textContent = days;
+    document.getElementById('year').textContent = today.getFullYear();
+    // document.getElementById('lifetime').textContent = '';
+  </script>
+</body>
+</html>
