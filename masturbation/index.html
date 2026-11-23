@@ -60,6 +60,17 @@
       margin: 0;
       white-space: nowrap;
     }
+    @media (max-width: 600px) {
+      .headline-translations {
+        flex-direction: column;
+        gap: 4px;
+        overflow-x: visible;
+        width: 100%;
+      }
+      .headline-translations .translation {
+        width: 100%;
+      }
+    }
     #mainText {
       margin-bottom: 0;
       line-height: 1.15;
@@ -77,9 +88,19 @@
       color: inherit;
       text-align: center;
     }
+    #bgm-player {
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 10;
+      width: 298px;
+      height: 52px;
+      border: 0;
+    }
   </style>
 </head>
 <body>
+  <iframe id="bgm-player" frameborder="no" border="0" marginwidth="0" marginheight="0" width="298" height="52" src="//music.163.com/outchain/player?type=2&id=2541479&auto=0&height=32" title="背景音乐播放器"></iframe>
   <main>
     <h1 id="mainText">这家伙已经 <span id="days">…</span> 天没有 0721 啦！</h1>
     <div class="headline-translations">
