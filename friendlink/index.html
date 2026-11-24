@@ -17,6 +17,18 @@
     main { max-width: 1040px; margin: 0 auto; padding: 48px 24px 64px; }
     h1 { margin: 0 0 22px; font-size: 28px; font-weight: 600; }
     .music-player { display: block; max-width: 100%; margin-bottom: 36px; border: 0; }
+    .home-link {
+      display: inline-block;
+      margin-bottom: 24px;
+      padding: 8px 16px;
+      border: 1px solid #007f86;
+      border-radius: 4px;
+      color: #007f86;
+      text-decoration: none;
+      font-size: 14px;
+    }
+    .home-link:hover,
+    .home-link:focus-visible { background: #d9f0f0; }
     .tiles { display: flex; flex-wrap: wrap; gap: 12px; margin: 0; padding: 0; list-style: none; }
     .tile {
       display: flex;
@@ -66,6 +78,7 @@
 
 <body>
   <main>
+    <a class="home-link" href="../index.html">返回首页 Back to HomePage</a>
     <h1>冰糖XH的友情链接</h1>
     <iframe class="music-player" title="网易云音乐播放器" width="298" height="52"
       src="https://music.163.com/outchain/player?type=2&id=1614668&auto=0&height=32"></iframe>
